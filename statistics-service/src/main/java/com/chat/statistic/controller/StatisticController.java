@@ -1,12 +1,12 @@
-package com.chat.gateway.controller;
+package com.chat.statistic.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/1.0")
-public class GatewayController {
+@RequestMapping("statistic")
+public class StatisticController {
     @GetMapping
     public String list() {
         return "";
