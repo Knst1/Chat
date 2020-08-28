@@ -1,10 +1,11 @@
-package com.chat.discovery;
+package com.chat.group;
 
 import org.junit.jupiter.api.Test;
 
-public class DiscoveryApplicationTests {
+class GroupApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
+
 }
