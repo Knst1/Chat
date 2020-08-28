@@ -1,0 +1,7 @@
+include 'user-service'
+include 'authorization-service'
+include 'message-service'
+include 'group-service'
+include 'gateway'
+include 'discovery-service'
+include 'statistics-service'
