@@ -6,6 +6,12 @@ script:
   - chmod +x gradlew
   - ./gradlew clean build
 
+deploy:
+  provider: heroku
+  api_key: 075d245b-a11c-4542-950d-26764c1d2781
+  app: kpchat
+  on: dev
+
 branches:
   only:
     - dev
